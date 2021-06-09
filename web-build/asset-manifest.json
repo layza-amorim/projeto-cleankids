@@ -1,0 +1,37 @@
+{
+  "files": {
+    "app.js": "/static/js/app.ce23caf6.chunk.js",
+    "app.js.map": "/static/js/app.ce23caf6.chunk.js.map",
+    "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
+    "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
+    "static/js/2.bd79d3f2.chunk.js": "/static/js/2.bd79d3f2.chunk.js",
+    "static/js/2.bd79d3f2.chunk.js.map": "/static/js/2.bd79d3f2.chunk.js.map",
+    "favicon-16.png": "/favicon-16.png",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "static/js/2.bd79d3f2.chunk.js.LICENSE.txt": "/static/js/2.bd79d3f2.chunk.js.LICENSE.txt",
+    "static/media/background.png": "/static/media/background.b53a3b77.png",
+    "static/media/certificate.png": "/static/media/certificate.abe07f68.png",
+    "static/media/correctAnswer.mp3": "/static/media/correctAnswer.7024795d.mp3",
+    "static/media/falseAnswer.png": "/static/media/falseAnswer.4f9b4557.png",
+    "static/media/logo.png": "/static/media/logo.188ba32c.png",
+    "static/media/question1.png": "/static/media/question1.a0fc8db6.png",
+    "static/media/question2.png": "/static/media/question2.7ce5d3aa.png",
+    "static/media/question3.png": "/static/media/question3.888ea592.png",
+    "static/media/question4.png": "/static/media/question4.9c53dc98.png",
+    "static/media/question5.png": "/static/media/question5.faf9fcd4.png",
+    "static/media/question6.png": "/static/media/question6.c6d63b91.png",
+    "static/media/question7.png": "/static/media/question7.371c9f0e.png",
+    "static/media/question8.png": "/static/media/question8.d4835158.png",
+    "static/media/trueAnswer.png": "/static/media/trueAnswer.22492add.png",
+    "static/media/wrongAnswer.mp3": "/static/media/wrongAnswer.95c205b3.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.2e9f1821.js",
+    "static/js/2.bd79d3f2.chunk.js",
+    "static/js/app.ce23caf6.chunk.js"
+  ]
+}

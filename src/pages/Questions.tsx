@@ -14,14 +14,14 @@ const soundWrongAnswer = require('../assets/wrongAnswer.mp3');
 
 const trueAnswer = require('../assets/trueAnswer.png');
 const falseAnswer = require('../assets/falseAnswer.png');
-const question1 = require('../assets/question1.png');
-const question2 = require('../assets/question2.png');
-const question3 = require('../assets/question3.png');
-const question4 = require('../assets/question4.png');
-const question5 = require('../assets/question5.png');
-const question6 = require('../assets/question6.png');
-const question7 = require('../assets/question7.png');
-const question8 = require('../assets/question8.png');
+const question1 = require('../assets/question1.jpg');
+const question2 = require('../assets/question2.jpg');
+const question3 = require('../assets/question3.jpg');
+const question4 = require('../assets/question4.jpg');
+const question5 = require('../assets/question5.jpg');
+const question6 = require('../assets/question6.jpg');
+const question7 = require('../assets/question7.jpg');
+const question8 = require('../assets/question8.jpg');
 
 export function Questions() {
   const navigation = useNavigation();

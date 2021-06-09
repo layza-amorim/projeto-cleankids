@@ -8,7 +8,6 @@ import {
   Keyboard,
   KeyboardAvoidingView,
   Platform,
-  SafeAreaView,
   StyleSheet,
   Text,
   TextInput,
@@ -52,41 +51,33 @@ export function UserIdentification() {
   }
 
   return (
-    <SafeAreaView style={styles.container}>
-      <KeyboardAvoidingView style={styles.container} behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
-        <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-          <View style={styles.content}>
-            <Image source={logo} style={styles.image} />
-            <View style={styles.form}>
-              <View style={styles.header}>
-                <Text style={styles.emoji}>{isFilled ? '😁' : '😀'}</Text>
-                <Text style={styles.title}>Como podemos {'\n'} chamar você?</Text>
-              </View>
-              <TextInput
-                placeholder="Digite um nome"
-                style={[styles.input, (isFocused || isFilled) && { borderColor: colors.blue_light }]}
-                onBlur={handleInputBlur}
-                onFocus={handleInputFocus}
-                onChangeText={handleInputChenge}
-              />
-              <View style={styles.footer}>
-                <Button title="Confirmar" onPress={handleSubmite} />
-              </View>
-            </View>
+    <View style={styles.container}>
+      <View style={styles.content}>
+        <Image source={logo} style={styles.image} />
+        <View style={styles.form}>
+          <View style={styles.header}>
+            <Text style={styles.emoji}>{isFilled ? '😁' : '😀'}</Text>
+            <Text style={styles.title}>Como podemos {'\n'} chamar você?</Text>
           </View>
-        </TouchableWithoutFeedback>
-      </KeyboardAvoidingView>
-    </SafeAreaView>
+          <TextInput
+            placeholder="Digite um nome"
+            style={[styles.input, (isFocused || isFilled) && { borderColor: colors.blue_light }]}
+            onBlur={handleInputBlur}
+            onFocus={handleInputFocus}
+            onChangeText={handleInputChenge}
+          />
+          <View style={styles.footer}>
+            <Button title="Confirmar" onPress={handleSubmite} />
+          </View>
+        </View>
+      </View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    width: '100%',
-    alignContent: 'center',
-    justifyContent: 'space-around',
-    backgroundColor: colors.white
+    flex: 1
   },
   content: {
     flex: 1,

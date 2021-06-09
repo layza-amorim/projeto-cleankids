@@ -49,9 +49,9 @@ const styles = StyleSheet.create({
   },
   contentWin: {
     flex: 1,
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    padding: 20
+    justifyContent: 'space-around'
+    // alignItems: 'center',
+    // padding: 20
   },
   contentLost: {
     backgroundColor: colors.white,
